@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.exchange-rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.exchange-rate label {
+    margin-right: 10px;
+}
+
+.exchange-rate input {
+    width: 100px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.product-price {
+    margin-bottom: 20px;
+}
+
+.product-price input {
+    width: 200px;
+    padding: 10px;
+}
+
+.results {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#calculate-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculate-btn:hover {
+    background-color: #45a049;
+}
